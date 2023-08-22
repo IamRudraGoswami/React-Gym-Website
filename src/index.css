@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 body{
+    height: 100%;
+    width: 100%;
     margin:0px;
     padding: 0px;
     background-color: #000000;
@@ -377,7 +379,7 @@ nav .menu-btn,
 }
 #contact form input,
 #contact form textarea{
-    width:100%;
+    width:90%;
     height:50px;
     margin:5px 0px;
     padding: 10px;
@@ -396,9 +398,10 @@ nav .menu-btn,
     color: #ffffff;
     text-transform: uppercase;
 }
+
 @media(max-width:620px){
     #contact form{
-        width:90%;
+        width:100%;
     }
 }
 
@@ -458,8 +461,10 @@ nav .menu-btn,
 }
 
 @media(max-width:970px){
+   
 	#main{
-		height: 650px;
+		height: 650px; 
+        width: 100%;
 	}
 	.name{
 		left: 50%;
@@ -471,22 +476,14 @@ nav .menu-btn,
 		top: 50%;
 		transform: translate(-50%,-50%);
 	}
-	.about-image{
+	.about-imag{
         display:none;
     }
-    .header-btn{
-        margin-left: 20%;
-        margin-top: 20px;
-    }
-    .pr-btn{
-        margin-left: 20%;
-        margin-top: 20px;
-    }
+	
 	#about{
 		justify-content: center;
         padding-top: 0px;
         text-align: center;
-        
         margin-top: 0px;
 	}
 	.about-text{
@@ -521,12 +518,12 @@ nav .menu-btn,
         .logo img{
             width:70px;
         }
-        .header-btns{
+        /* .header-btns{
             margin: 0;
         }
         .pr-btns{
             margin: 0;
-        }
+        } */
         .menu{
             display:none;
             position:absolute;
