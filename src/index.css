@@ -479,7 +479,16 @@ nav .menu-btn,
 	.about-imag{
         display:none;
     }
-	
+
+    /*  1st part */
+    /* .header-btn{
+        margin-left: 45%;
+        margin-top: 20px;
+    }
+    .pr-btn{
+        margin-left: 45%;
+        margin-top: 20px;
+    } */
 	#about{
 		justify-content: center;
         padding-top: 0px;
